@@ -1,9 +1,6 @@
 package com.sfj.tests;
 
-import com.sfj.driver.Driver;
-import com.sfj.driver.DriverManager;
 import com.sfj.pages.LoginPage;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

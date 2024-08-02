@@ -21,4 +21,10 @@ public final class ExtentReport {
         extentTest = extent.createTest(testCaseName);
         ExtentManager.setExtentTest(extentTest);
     }
+    public static void setAuthor(String authorName){
+        ExtentManager.getExtentTest().assignAuthor(authorName);
+    }
+    public static void setCategory(String[] category){
+        ExtentManager.getExtentTest().assignCategory(category);
+    }
 }

@@ -1,8 +1,6 @@
 package com.sfj.pages;
 
-import com.sfj.driver.DriverManager;
 import com.sfj.enums.WaitType;
-import com.sfj.reports.ExtentLogger;
 import com.sfj.utils.SeleniumUtils;
 import org.openqa.selenium.By;
 
